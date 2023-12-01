@@ -1,0 +1,21 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+  float w = 0;
+  float h = 0;
+  float n_h = 0; 
+  float BMI;
+
+  cout<< "Please enter your height in feet and your weight: "<< endl;
+  cin>> h>> w; 
+  n_h = h * 12; 
+  BMI = w/(n_h*n_h) * 703;
+  cout<< "Your BMI is "<< fixed << setprecision(1)<<BMI;
+  
+  
+  
+  
+  
+}
